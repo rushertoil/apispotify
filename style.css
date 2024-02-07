@@ -1,12 +1,13 @@
 
 body {
-    position: relative;
     font-family: Arial, sans-serif;
-    width: 100vh;
-    height: 100%;
-    overflow: hidden;
     margin: 0;
     padding: 0;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
 }
 
 .bloc video {
@@ -16,19 +17,26 @@ body {
     left: 0;     
     width: 100%; /* Assurez-vous que la vidéo couvre toute la largeur */    
     height: auto; /* Hauteur automatique pour conserver les proportions d'origine */    
-    z-index: -1;    
 }
-/* Style de l'en-tête */
+
 
 header {
-    background-color: darkgray;
+   
+    width: auto;  
+    height: auto;
+    color: white;
     padding: 20px;
     text-align: center;
-    
 }
 
 
 #result-container {
+    padding: 20px;
+    position: absolute;
+    position: fixed; 
+    top: 0;     
+    left: 0;     
+    width: 100%;   
     text-align: center; /* Centrer le texte horizontalement */
     margin-top: 50px; /* Espacement du haut de la page */
     color: white;
