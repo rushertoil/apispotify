@@ -1,34 +1,35 @@
 
 body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    width: 100vh;
+    height: 100%;
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
+.bloc video {
+    position: absolute;
+    position: fixed; /* Positionne la vidéo de manière fixe */    
+    top: 0;     
+    left: 0;     
+    width: 100%; /* Assurez-vous que la vidéo couvre toute la largeur */    
+    height: auto; /* Hauteur automatique pour conserver les proportions d'origine */    
+    z-index: -1;    
+}
 /* Style de l'en-tête */
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: darkgray;
     padding: 20px;
     text-align: center;
-}
-section {
-    padding: 20px;
+    
 }
 
-/* Style du pied de page */
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
 #result-container {
     text-align: center; /* Centrer le texte horizontalement */
     margin-top: 50px; /* Espacement du haut de la page */
+    color: white;
 }
