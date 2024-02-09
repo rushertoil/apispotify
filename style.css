@@ -6,12 +6,18 @@ body {
     display: flex;
     display: block;
     flex-direction: column;
-    text-align: center;
     background-color: black;
 }
-
-.bloc video {
+.image {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%; 
+    height: auto;
+    z-index: 1
+}
+.bloc video {
+    
     position: fixed; /* Positionne la vidéo de manière fixe */    
     top: 0;     
     left: 0;     
@@ -40,4 +46,40 @@ header {
     text-align: center; /* Centrer le texte horizontalement */
     margin-top: 50px; /* Espacement du haut de la page */
     color: white;
+}
+
+.footer {
+    background: radial-gradient(circle, #0c1444, #000000); /* Dégradé galaxie */
+    color: #ffffff; /* Couleur du texte */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 1; /* Assurez-vous que la barre de fin apparaît au-dessus de la vidéo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 1em;
 }
