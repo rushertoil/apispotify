@@ -1,0 +1,14 @@
+- GeoLandFinder
+
+- Rechercher n'importe quel pays (écrire en anglais)
+    Résultat : 
+        - Nom
+        - Capitale
+        - Région
+        - Population
+
+- Arrière plan animé
+
+- Bas de page avec informations
+
+- Lien vers l'instagram du site via le logo
